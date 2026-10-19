@@ -20,7 +20,6 @@ while True:
             elif escolha == 'P':
                 print('Você PERDEU!')
                 break
-            print('=' * 40)
         elif result % 2 == 0:
             print(f'Você jogou {jog} e o computador {comp}. Total de {jog + comp} - DEU PAR')
             if escolha == 'I':
@@ -29,5 +28,5 @@ while True:
             elif escolha == 'P':
                 print('Você VENCEU!\nVamos jogar novamente...')
                 cont += 1
-            print('=' * 40)
+    print('=' * 40)
 print(f'GAME OVER! Você venceu {cont} vezes.')
